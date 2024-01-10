@@ -1,0 +1,101 @@
+@import '/src/assets/sass/mixin';
+
+.toDoApp {
+    @include absCenter("left");
+    width: 440px;
+    min-height: 500px;
+    margin-top: 68px;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #101010;
+    padding: 0 0 32px;
+    text-align: center;
+}
+
+.toDoApp h3 {
+    font-size: 24px;
+    margin: 32px 0;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
+
+.toDoApp .inp {
+    border: 2px solid #5a52ce;
+    outline: none;
+    border-radius: 4px 0px 0px 4px;
+    // font-size: 18px;
+    padding: 14px 32px 14px 16px;
+    font-size: 16px;
+    margin-bottom: 36px;
+    word-break: break-all;
+}
+
+.toDoApp .form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    // height: 100px;
+}
+
+.toDoApp .btn {
+    width: 100px;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    background: linear-gradient(90deg, #5d0cff, #9b00fa);
+    color: #fff;
+    border: 0;
+    padding: 15.5px 0;
+}
+
+.toDoApp .toDoRow {
+    align-items: center;
+    background: linear-gradient(90deg, #ff7614, #ff5411);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px auto;
+    padding: 16px;
+    width: 80%;
+    text-align: left !important;
+    line-height: 24px;
+}
+
+.toDoRow:nth-child(4n+3) {
+    background: linear-gradient(90deg, #149fff, #117aff)
+}
+
+.toDoRow:nth-child(4n+1) {
+    background: linear-gradient(90deg, #5d0cff, #9b00fa);
+}
+
+.toDoRow:nth-child(4n+2) {
+    background: linear-gradient(90deg, #ff0cf1, #fa0087);
+}
+
+.toDoApp .icons {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+}
+
+.toDoApp .fa-trash {
+    color: #fff;
+    margin-right: 12px;
+}
+
+.toDoApp .messageError {
+    color: red;
+    position: absolute;
+    top: 147px;
+    left: 53px
+}
+
+.toDoApp .inpShow {
+    border: 2px solid #149fff;
+    margin-bottom: 0px;
+}
+
+.toDoApp .btnShow {
+    background: linear-gradient(90deg, #149fff, #117aff);
+}

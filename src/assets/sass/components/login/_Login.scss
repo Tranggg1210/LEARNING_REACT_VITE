@@ -1,0 +1,155 @@
+@import '/src/assets/sass/mixin';
+
+.loginVite {
+    width: 98vw;
+    min-height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.loginVite .itemCenter {
+    @include absCenter("both");
+    background-color: #ffff;
+    box-shadow: 1px 1px 12px rgba(0 0 0/40%);
+    padding: 18px 48px;
+    border-radius: 20px;
+    min-width: 365px;
+    min-height: 540px;
+    max-height: 800px;
+    top: 400px
+}
+
+.loginVite h1 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 12px 0;
+    opacity: 0.9;
+    color: #111010;
+}
+
+.loginVite .itemGroup>div {
+    margin: 10px;
+}
+
+.loginVite .itemGroup i {
+    margin: 0 4px;
+    font-size: 15px;
+    color: #000;
+}
+
+.loginVite .itemGroup input {
+    border: 0;
+    outline: none;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.itemGroup {
+    position: relative;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.loginVite .itemGroup a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 12px;
+    position: absolute;
+    // top: px
+    right: 0;
+    top: 83px;
+}
+
+
+.loginVite .itemGroup p {
+    margin-top: 8px;
+    text-align: right !important;
+}
+
+.loginVite .formLogin button {
+    width: 100%;
+    background-image: linear-gradient(to right, #6495ed, hotpink);
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 14px;
+    border: 0;
+    border-radius: 28px;
+}
+
+.loginVite .formLogin a:hover {
+    color: red;
+}
+
+.loginVite .formLogin button:hover {
+    opacity: 0.6;
+}
+
+.loginVite .other {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.loginVite .other p,
+.loginVite .other1 p {
+    opacity: 0.9;
+}
+
+.loginVite .borderItem {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 6px;
+}
+
+.loginVite .borderItem i {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.loginVite .borderItem:nth-child(1) {
+    background-color: #405b92;
+}
+
+.loginVite .borderItem:nth-child(2) {
+    background-color: #6495ed;
+}
+
+.loginVite .borderItem:nth-child(3) {
+    background-color: #d5573e;
+}
+
+.loginVite .borderItem:hover {
+    opacity: 0.8;
+}
+
+.loginVite .singup {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.loginVite .singup a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+
+}
+
+.loginVite .singup a:hover {
+    color: red;
+}
+
+.loginVite .ErrorMessage {
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    top: 70px
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.covid19News {
+    width: 99vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #f5355f, #5b33ae) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-weight: 400;
+        padding: 0;
+        margin-right: 16px;
+        margin-bottom: 24px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.covid19News>div {
+    background-image: linear-gradient(to right bottom, #25c097, #25bab5);
+    width: 1200px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 40px 0px 20px;
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+
+    td,
+    th {
+        // border: 1px solid #dddddd;
+        text-align: left;
+        padding: 16px 8px;
+        text-align: center !important;
+    }
+
+    tr {
+        border-top: 1px solid #dddddd;
+    }
+
+    tr:nth-child(1) {
+        background-color: rgba(240, 248, 255, 0.471);
+        color: #000;
+    }
+
+}
